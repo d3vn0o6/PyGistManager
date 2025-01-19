@@ -23,11 +23,13 @@ A Python-based tool to create, update, and manage GitHub Gists using the GitHub 
    git clone https://github.com/d3vn0o6/PyGistManager.git PyGistManager
    cd PyGistManager
    ```
+  
   2. Create virtual environment:
    ```bash
   python3 -m venv pygistmanager
   source pygismanager/bin/activate
   ```
+  
   3. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
