@@ -12,24 +12,23 @@ A Python-based tool to create, update, and manage GitHub Gists using the GitHub 
 
 ## Requirements
 - Python 3.7 or later.
-- The following7779
- Python libraries:
+- The following Python libraries:
   - `requests`
   - `PySimpleGUI`
 
 ## Installation
 
-1. Clone the repository:
+  1. Clone the repository:
    ```bash
    git clone https://github.com/d3vn0o6/PyGistManager.git PyGistManager
    cd PyGistManager
    ```
   2. Create virtual environment:
    ```bash
-  python3 -m venv 
-  
-
-3. Install the required Python packages:
+  python3 -m venv pygistmanager
+  source pygismanager/bin/activate
+  ```
+  3. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
    ```
@@ -38,7 +37,7 @@ A Python-based tool to create, update, and manage GitHub Gists using the GitHub 
 
 1. Run the script:
    ```bash
-   python main.py
+   python3 pygistmanager.py
    ```
 
 2. Follow the prompts to:
